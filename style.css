@@ -1,0 +1,30 @@
+.Ingredients,.Steps,.Description,.MainPage{
+    color:black;
+    background-color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#Image{
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.Ingredients,.Steps{
+color:black;
+background-color: palegreen;
+font-size: 24px;
+font-weight: 500;
+}
+
+ul {
+    margin-top: 0; /* Remove extra margin at the top */
+    margin-bottom: 0; /* Remove extra margin at the bottom */
+    padding-left: 20px; /* Adjust padding for bullet position */
+  }
+  
+  li {
+    margin-bottom: 2px; /* Adjust spacing between bullet points */
+    line-height: 1.2; /* Reduce the line height to bring them closer */
+  }
