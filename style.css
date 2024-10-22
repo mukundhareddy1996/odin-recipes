@@ -1,30 +1,54 @@
-.Ingredients,.Steps,.Description,.MainPage{
-    color:black;
-    background-color: lightcoral;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+.Ingredients,
+.Steps,
+.Description,
+.MainPage {
+  color: black;
+  /* background-color: lightcoral; */
+  font-family: "Times New Roman", Times, serif;
+  /* text-align: center; */
+  font-size: 24px;
+  font-weight: 700;
+  width: 600px;
+  margin: 0px auto;
 }
 
-#Image{
-    height: auto;
-    width: 300px;
-    text-align: center;
+#Image {
+  display:block;
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+  /* text-align: center; */
 }
 
-.Ingredients,.Steps{
-color:black;
-background-color: palegreen;
-font-size: 24px;
-font-weight: 500;
+.Ingredients,
+.Steps {
+  color: black;
+  /* background-color: palegreen; */
+  font-size: 24px;
+  font-weight: 700;
+  width: 600px;
+  margin: 0px auto;
 }
 
-ul {
-    margin-top: 0; /* Remove extra margin at the top */
-    margin-bottom: 0; /* Remove extra margin at the bottom */
-    padding-left: 20px; /* Adjust padding for bullet position */
-  }
-  
-  li {
-    margin-bottom: 2px; /* Adjust spacing between bullet points */
-    line-height: 1.2; /* Reduce the line height to bring them closer */
-  }
+ul,ol{
+  margin-top: 10 px;
+  padding: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: "first baseline";
+  flex-direction: column;
+}
+.Header {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#Steps,#Ingredients{
+  width :600px;
+  margin: 10px auto;
+}
